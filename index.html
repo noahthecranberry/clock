@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  m = checkTime(m);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body onload="startTime()">
+<a href="https://gateway.applywithus.com/en/apply" class="webtext">.Gateway</a><br><br>
+<a href="https://www.amazon.com/" class="webtext">.Amazon</a><br><br>
+<a href="http://www.mrozeni.com/" class="webtext">.Mr. Ozeni</a><br><br>
+<a href="https://drive.google.com" class="webtext">.Google Drive</a><br><br>
+<a href="https://mail.google.com" class="webtext active">.Gmail</a><br><br>
+<a href="https://www.google.com/search?q=groupon+stock+price&oq=groupon+stock+price&aqs=chrome..69i57j69i60l4.5076j0j7&sourceid=chrome&ie=UTF-8" class="webtext active">Groupon Stock Price</a><br><br>
+<a href="https://lmsd.blackboard.com" class="webtext active">.Blackboard</a>
+<br><br><div id="txt"></div>
+<h1>Why hello there, Noah!</h1>
+
+</body>
+</html>

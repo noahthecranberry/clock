@@ -1,0 +1,42 @@
+body {
+	background-image: url(sunrise.jpg);
+	background-size: cover;
+}
+
+a {
+	color: white;
+	background-color: rgba(0, 0, 255, 0.35);
+	border-style: solid;
+	border-style: circle;
+	border-radius: 500%;
+	border-color: white;
+	font-size: 20px;
+	width: 200px;
+	border-top-left-radius: 200px 150px;
+	border-top-right-radius: 200px 150px;
+	border-bottom-left-radius: 200px 150px;
+	border-bottom-right-radius: 200px 150px;
+	float: left;
+}
+
+.webtext:last-child {
+	background-color: rgba(250, 100, 230, 0.35);
+}
+
+.active {
+	background-color: rgba(250, 100, 230, 0.35);
+}
+
+div {
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-style: italic;
+}
